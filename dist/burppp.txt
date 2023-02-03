@@ -1,0 +1,24 @@
+1.open mo burp
+2.next backup continue
+3.vulnweb.com
+4.preferences
+advance
+network
+manual 
+balik ka sa burp makikita mo sa http history kung ano binuksan niya
+
+
+
+nmap....
+/opt/lampp
+nikto -h 192.168.0.107
+nmap -p 80(target port) 192.168.0.107
+
+
+
+
+apt install mysql -y
+service mysql restart
+service mysql status "makikita mo na active running"
+mysql -u root
+show databases;

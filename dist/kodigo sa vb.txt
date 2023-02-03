@@ -1,0 +1,76 @@
+TOR
+
+sudo apt-get install tor
+
+
+//new terminal 
+sudo nano /etc/proxychains4.conf
+
+enable dynamite
+enable proxy DNS require
+
+
+sudo service tor start
+
+proxychains4 firefox www.duckduckgo.com
+
+
+dns leak test
+
+
+
+mysql
+
+service mysql start(no need mag dl ng files)
+
+mysql -u root
+
+show databases;
+
+create database (name ng database);
+
+use  (database name ng ginawa mo);
+
+crete table (db name)(name varchar(35).id int
+
+
+
+
+
+
+
+
+
+
+
+apache2
+sudo apt install apache2
+sudo service apache2 start (start ng service)
+*(check kung nagana) sudo service apache2 status
+(check ip address) sudo ifconfig (paste mo ung ip address sa browser)
+
+host webpage
+cd /var/www/html
+
+
+ls
+
+clear
+
+sudo rm -rf *
+
+clear 
+
+ls
+
+sudo nano index.html
+
+
+enter mo ulit ung ip mo tas ayun meron ka ng webpage.
+
+
+
+
+
+
+
